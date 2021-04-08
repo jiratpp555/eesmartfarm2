@@ -1,0 +1,147 @@
+body {
+    font-family: 'Yusei Magic', sans-serif; /*activate the font*/
+}
+
+
+body{
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.onbtn{
+    /*position: absolute;*/
+    /*top: 25%;
+    left: 20%;*/
+    color: black;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #338033;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bolder;
+    border-radius: 6px;
+    transition: .6s;
+    overflow: hidden;
+
+}
+
+
+.onbtn:hover{
+    color: whitesmoke;
+    background: #338033;
+    cursor: pointer;
+}
+
+.onbtn:hover::before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+
+.onbtn:hover:after{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.offbtn{
+    color: black;
+    width: 150px;
+    height: 40px;
+    border: 2px solid crimson;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bolder;
+    border-radius: 6px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+
+.offbtn:hover{
+    color: whitesmoke;
+    background: #e01e1e;
+    cursor: pointer;
+}
+
+.offbtn:hover::before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.offbtn:hover:after{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+body{
+    background: rgb(136, 238, 145); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,rgb(162, 144, 241),rgb(125, 195, 251)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgb(162, 144, 241),rgb(125, 195, 251)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgb(162, 144, 241),rgb(125, 195, 251)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgb(162, 144, 241),rgb(125, 195, 251)); /*Standard*/
+}
+
+.photo {
+    width: 180px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 3px;
+    border-color: violet;
+}
+
+.font{
+    font-size: 25px;
+    font: bold;
+}
+
+.title{
+    font: bolder;
+    font-size: 40px;
+    color: rgb(255, 189, 249);
+    text-shadow: 2px 2px slateblue;
+
+}
+
+.kmitlphoto {
+    width: 200px;
+    height: 200px;
+}
+
+.submit {
+    background: honeydew;
+    font: bolder;
+    font-family: monospace;
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid mediumpurple;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+    box-shadow: 1px 1px;
+}
+
+.submit:hover{
+    background: rgb(170, 84, 231);
+    cursor: pointer;
+    color: lavender;
+}
+
+.submit:hover::before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+.submit:hover:after{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
