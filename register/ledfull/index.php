@@ -101,6 +101,14 @@ $(document).on('click','#button',function(e) {
   <input class="submit" type="submit">
     </form>
 
+
+<!-- Settings page -->
+<form action="setting_farm.php">
+    <input type="submit" class="setting_farm_btn" value="Settings" />
+</form>    
+    
+
+
 <div class="next">
    
 </div>

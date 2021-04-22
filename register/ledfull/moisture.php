@@ -27,7 +27,7 @@
 <?php
 $servername = "database-2.ctwjgqaa6ssa.ap-southeast-1.rds.amazonaws.com";
 $username = "adminpp";
-$password = "Pploveminju2543";
+$password = "Ppiotsmartfarm";
 $dbname = "test";
 
 // Create connection
